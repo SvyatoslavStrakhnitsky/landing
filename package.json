@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvyatoslavStrakhnitsky/landing.git"
+  },
+  "author": "Strakhnitskyi Sviatoslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvyatoslavStrakhnitsky/landing/issues"
+  },
+  "homepage": "https://github.com/SvyatoslavStrakhnitsky/landing#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
